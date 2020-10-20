@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Travels"
+            android:icon="@drawable/ic_action_my_travels"
+            android:title="My Travels" />
+        <item
+            android:id="@+id/nav_Travel_available"
+            android:icon="@drawable/ic_action_travels"
+            android:title="Travel available" />
+        <item
+            android:id="@+id/nav_all_Dirver"
+            android:icon="@drawable/ic_stat_drivers"
+            android:title="All Drivers" />
+        <item
+            android:id="@+id/nav_Website"
+            android:icon="@drawable/ic_stat_home"
+            android:title="Website" />
+        <item
+            android:id="@+id/nav_Exit"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Exit" />
+
+
+
+
+    </group>
+
+
+
+
+</menu>
